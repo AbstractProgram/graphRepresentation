@@ -16,3 +16,9 @@ _Graph / Node Relationship Graph / Nested Unit Tree / Trees / Herarchies / Neste
 # Other features missing in graph databases:
 - Support for graph document store (nested fields as node properties), which Neo4j said they were looking into it, but it seems they won't apply it as it "encourages bad graph modeling".
 
+### In-memory storage structure & requirements:
+- Example of algorithms / data structures for graph storage: 
+    - Adjancency Matrix representation - using matrix array to store edeges for nodes. 
+    - Adjacency list
+- Data items to be processed are stored as part of the graph. Each data item can be referenced/connected by multiple nodes (isn' strictly boudn to a single node).
+- Handling multiple graphs in memory which are separated and traversals or caching are not shared. e.g. a graph for Middleware, another for Condition, Template, etc.

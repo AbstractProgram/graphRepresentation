@@ -2,6 +2,21 @@
 - Graph representation of the program's control flow, as instructions directed to the traverser.
 - **Graph type**: Usually the Graph that is used is Directed, Acyclic or cyclic, Weighed, Sparsed _(few edges in comparison to complexity analysis)_, & immediately-processed graph (created to be processed during traversal).
 
+# Executable Graph Traversal
+- similar concept to abstract semantic graph only intended for execution.
+- Abstract Program Graph: The program is "abstract" in the sense that it deals with abstractions of a lower level program.
+- Executable Graph
+An immediately executed graph traversal, where nodes instruct on performing actions in customizable implementations. It hands back control to the client allowing to manipulate the traversal propagation and node data processing logic.
+- On each traversal a node data can be processed/executed, taking into account precedence constraints.
+- Created for graph where the node's data is the main subject, & traversal rules/configs of a relational graph, are used to decide on the way to deal with multiple processings of the nodes's data - i.e. processing logic & combination of results.
+- Immediately Graph Traversal: allows to move the control flow logic of the program to an in-memory graph. In addition to defining the flow of program, it controls the integration logic/algorithm between the procedure/actions of the program - which could be used for different use cases. Describing the algorithm used to handle processes/steps/procedures of the program.
+- Graphs allow to create a visual layer for the program control flow, and allow realtime changes to a running program, in which different presentation elements could be defined to display the program in a sumerized compact manner. The visual representation doesn't necessarily represent the exact graph database structure, rather it adds a level of abstraction.
+- There is one node for each abstract procedure in the program. 
+- highly abstract software language
+- Eagerly executed, promise and iterators based.
+- The graph traversal module is callback & Proxy based, which hands overcontrol to concrete functions and returns an iterator of results that the proxy implementation can decide what to do with. Permitting highly configurable traversal behavior.
+- The core code of the module is separate from the plugin implementations and largely involved in the integration between the plugin implementations.
+
 ## Graph Elements:
 The graph traversal chain (a single recursive traversal call) could traverse nodes in an independent way, where each node traversal awaits only it's own nested and siblings traversals, or it could be executed in a manner where each node can control the entire chain iterator and await any other node, even if it is not nested or part of the same port group of nodes.
 

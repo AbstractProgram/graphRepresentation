@@ -4,6 +4,13 @@ _resources about graphs and different implementations:_
 - http://web.cs.iastate.edu/~weile/cs641/2.ProgramRepresentations.pdf
 - https://graphcommons.com/ - create graph maps visually.
 - [representing programs as graphs](https://www.google.com/search?biw=1280&bih=621&ei=Vv1LXqDjI_eg1fAP_t6OiAQ&q=program+as+a+graph&oq=program+as+a+graph&gs_l=psy-ab.3..0i22i30l10.10038.16958..17254...4.8..1.298.3723.2j23j1......0....1..gws-wiz.....0..0i71j0i67i70i249j0i131j0j0i273j0i131i67j0i67j0i22i10i30.Tfjb-TaT4PU&ved=0ahUKEwig5omTsNvnAhV3UBUIHX6vA0E4ChDh1QMICw&uact=5)
+- Program structures: 
+    - https://www.youtube.com/watch?v=yC9SQJnTvo4 
+    - https://www.kullabs.com/classes/subjects/units/lessons/notes/note-detail/4207 
+    - https://teachcomputerscience.com/selection/ 
+    - https://cis.temple.edu/~pwang/1057-PC/Lecture/Ch04.htm
+    - https://en.wikipedia.org/wiki/Subroutine
+- term in use https://en.wikipedia.org/wiki/Control-flow_graph https://www.geeksforgeeks.org/software-engineering-control-flow-graph-cfg/
 - Related to extending graphs - https://en.wikipedia.org/wiki/Graph_minor#Example
 - Neo4j example traversal APi - https://neo4j.com/docs/java-reference/current/tutorial-traversal/
 - Topological sort of graph based on the interconnected edges, not any numeric value (non-numeric sort). a set of tasks to be completed in precedence constraints (precedence schedualing) - DepthFirstOrder using DFS algorithm - https://fr.coursera.org/lecture/algorithms-part2/topological-sort-RAMNS

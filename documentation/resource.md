@@ -55,3 +55,4 @@ _resources about graphs and different implementations:_
 - https://books.google.co.il/books?id=lBdnDwAAQBAJ&pg=PA255&lpg=PA255&dq=Abstract+semantic+graph&source=bl&ots=pNGqlHe5BK&sig=ACfU3U3H26y1tSzTkrohnbaM3voos_e_Ag&hl=en&sa=X&ved=2ahUKEwje37_s9t3nAhWGURUIHdOYCPQ4ChDoATASegQICxAB#v=onepage&q=Abstract%20semantic%20graph&f=false
 - https://books.google.co.il/books?id=SojuCAAAQBAJ&pg=PA243&lpg=PA243&dq=what+is+an+%22abstract+program%22&source=bl&ots=ejOxLoPqDN&sig=ACfU3U07-3B3gLqNuRiyA-4Ocp0LJGX-zw&hl=en&sa=X&ved=2ahUKEwi29YPF-N3nAhXbURUIHX-yDm04HhDoATAHegQIChAB#v=onepage&q=what%20is%20an%20%22abstract%20program%22&f=false
 - https://www.hisour.com/ar/diagram-17613/
+- https://www.youtube.com/watch?v=Ps3mBPcjySE

@@ -4,6 +4,12 @@ _Graph / Node Relationship Graph / Nested Unit Tree / Trees / Herarchies / Neste
 - Graphs can represent any collection of objects having some kind of pairwise relationship (conveying of relational information). Many realworld systems and problems can be modeled using a graph.
 - Generally speaking, there isn't really a concept of mutable state in abstract algebra (of which Graph Theory is a part). Only existence/non-existence. Graphs have a static state, and cannot be mutable in common Graph Theory concepts. Any 'change' indicated would be another distinct graph.
 
+# Contents links: 
+- [classification concept](/documentation/concept/classification.md)
+- [Extension concept](/documentation/concept/extension.md)
+- [Port concept](/documentation/concept/port.md)
+- [Reroute concept](/documentation/concept/reroute.md)
+
 ### Definitions: 
 - **Multiedge/Parallel edges**: Multiple connections between 2 verticies/nodes.
 - **Self edges**: Loop allowed graph.

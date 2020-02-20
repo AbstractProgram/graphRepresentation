@@ -11,7 +11,7 @@ A concept of graph assisted programming, immediately executed graph. and an impl
 
 - [Specification for abstract program representation in graph datastructure](/documentation/specification/specification.md)
 - [Graph concepts for extending the data structure](/documentation/concept/concept.md)
-- [Graphical presentation of the graph data](/documentation/graphical)
+- [Graphical presentation of the graph data](/documentation/graphical/graphical.md)
 - [Resource links](/documentation/resource.md)
 
 # The role of Immediately Executed Graphs in program design:

@@ -1,5 +1,6 @@
 # Resources 
 _resources about graphs and different implementations:_
+
 - https://en.wikipedia.org/wiki/Call_graph
 - http://web.cs.iastate.edu/~weile/cs641/2.ProgramRepresentations.pdf
 - https://graphcommons.com/ - create graph maps visually.
@@ -63,3 +64,5 @@ _resources about graphs and different implementations:_
 - https://books.google.co.il/books?id=SojuCAAAQBAJ&pg=PA243&lpg=PA243&dq=what+is+an+%22abstract+program%22&source=bl&ots=ejOxLoPqDN&sig=ACfU3U07-3B3gLqNuRiyA-4Ocp0LJGX-zw&hl=en&sa=X&ved=2ahUKEwi29YPF-N3nAhXbURUIHX-yDm04HhDoATAHegQIChAB#v=onepage&q=what%20is%20an%20%22abstract%20program%22&f=false
 - https://www.hisour.com/ar/diagram-17613/
 - https://www.youtube.com/watch?v=Ps3mBPcjySE
+- https://www.youtube.com/watch?v=7nGygdZfQas
+- https://www.youtube.com/watch?v=T9dgTRc8O4c

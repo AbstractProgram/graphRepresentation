@@ -2,7 +2,7 @@
 
 An abstract program (or control graph or flowchart schema) depicts the control structure of the program, leaving much of the detail to be specified in an interpretation. To put it differently, it helps to distinguish between the sequence of processing steps and the algorithms applied at each step. This allows one to change the control module, for instance by reprogramming it or by treating the abstract program as the input of a supervisor program which does not change. The supervisor executes processing steps in the sequence  specified by the abstract program whose statements are read in as the data of the supervisor.
 
-A concept of graph assisted programming, immediately executed graph. and an implementation module of such concept. Similar to program analysis graphs which displays all possible paths a program can take, only that it is used for runtime execution. A graph representing the control flow of the program.
+A concept of graph assisted programming, immediately executed graph. and an implementation module of such concept. Similar to program analysis graphs which displays all possible paths a program can take, only that it is used for runtime execution. A graph representing the control flow of the program. i.e. Visual programming language that assembles executable code.
 
 ###### Other terminology: _Abstract Program Graph / Executable Graph / Control Flow Graph / Graph-assisted program / Call Graph_
 
@@ -46,3 +46,7 @@ Different applications may use this module:
         - Executionng of code logic and replacement of points with content produced by that code.
 - Server request handling with on the fly middleware chain compisition.
 - etc.
+
+# Vision: 
+- The source of program should be a graph structure itself. Direct compilation from graph based program to low-level machine code.
+- Alternative to text programming utilities. 

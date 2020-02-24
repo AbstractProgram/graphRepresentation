@@ -1,25 +1,60 @@
 # Presentation: max 3 mins. 
 
-## • Short definition
-This is an overview of abstract program concept, where visual programming can be integrated with text-based programming. I hope to be clear & brief, although there is a lot to say about each programming approach. 
-Basically it is a way to represent part of the program in a graph data structure. It is an abstract program in the sense that it describes the control flow of the program, leaving much of the details of the algorithms which are applied on each step for the interpreter. In other words, it allows for splitting up the sequence of steps from the logic to be processed on each step. 
-Rather than taking an entire visual programming approach, using both visual & text, allows for integration with current development tools. 
-It works by providing the graph data as input to a supervisor program, in which it reads the graph, interprets it, and executes the steps in the graph on runtime during traversal. The same graph can be executed with different interpretation algorithms to match specific use-cases.
+| Points        | Scene           |
+| ------------- |:------------- |
+| 1-4 | Title with an example control flow graph.|
+| 5 | Side-by-side text and visual programming approaches |
+| 6-7 | Graph with arrow pointing to the an interpreter |
+| 8-9 | Supervisor program (traverses, interprets, & executes) with an inpur program graph and used interpretation algorithms. |
+| 10-13 | Browser screencast of repositories |
 
-# Vision
 
-## • Usage applicaitons: 
-I've found that some program patterns are easier to grasp when displayed graphically, which assist in understanding both time and spatial relations.
+## Points: 
+_Explain the concept:_
+1. Closest term "abstract program"
+2. High-level Graph-based programming.
+3. Visual & text-based approaches integration.
+4. Represent part of a program in graph. 
+5. Use existing text-based development tools and incrementally build graphical toolset. 
+6. Explain abstract term & interpreter of the program. 
+7. Split sequence from logic.
 
+_How does it work in a nutshell ?_
+
+8. Supervisor program - interpret and execute.
+9. Interpretation algorithms for different use cases. 
+
+_Present repositories:_
+
+10. Specification & implementation repos.
+11. Graph theory concepts repository. 
+12. Supervisor program Implementation of the spec.
+13. Use cases. 
+14. Graphical representation designs.
+15. Technical implementation details and architecture.
+16. pros & cons
+
+___
+
+## Actual script: 
+
+```
+This is an overview of abstract program concept. A high-level graph-based programming, where visual & text-based programming approaches can be integrated. Basically it is a way to represent part of the program in a graph data structure. Rather than taking an entire visual representations approach, using both visual & text, allows for integration with current existing text-based development tools, and incrementally build graphical tools.
+
+An abstract program, it is abstract in the sense that it describes the control flow of the program, leaving the details of the algorithms for an interpreter. In other words, it allows for splitting up the sequence of steps from the logic to be processed on each step.
+
+So, a supervisor program is provided with the graph data as input, in which it traverses the graph, interprets it, and executes the steps in the graph on runtime during each traversal. The same graph can be executed with different interpretation algorithms to match specific use-cases.
+
+
+This is the specification & this is the implementation of it in Nodejs.
+
+I've found that some program patterns are easier to grasp when displayed graphically (Not necessarily in a visual manner, but in an abstract manner), which assist in understanding both time and spatial relations. 
+Graphical representation of programs is known to be bulky and take a lot of space, but it shouldn't be necessarily the case, when the purpose is to show abstractions of the program focusing on the control flow rather than the actual procedures. In this case a compact and summerized design can developed.
+
+Let's look at different use cases:
 - Build pipelines
 - Sever middleware. 
 - Routing with logical conditions. 
 - Template compositions and rendering.
-
-
-## • Technical implementation details and architecture.
-
-## • Steps to integrate into current deployment lifecycle / development workflow.
-
-## • Pros & Cons.
+```
 

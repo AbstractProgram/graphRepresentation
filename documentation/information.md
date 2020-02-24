@@ -9,7 +9,7 @@ A concept of graph assisted programming, immediately executed graph. and an impl
 
 # Contents links: 
 
-- [Specification for abstract program representation in graph datastructure](/documentation/specification/specification.md)
+- [Specification for abstract program representation in graph datastructure](/documentation/specification.md)
 - [Graphical presentation of the graph data](/documentation/graphical/graphical.md)
 - [Resource links](/documentation/resource.md)
 

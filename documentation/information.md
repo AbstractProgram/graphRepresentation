@@ -49,3 +49,4 @@ Different applications may use this module:
 # Vision: 
 - The source of program should be a graph structure itself. Direct compilation from graph based program to low-level machine code.
 - Alternative to text programming utilities. 
+- Creating high-level programming abstractions, facilitating in understanding and managing large systems/programs.

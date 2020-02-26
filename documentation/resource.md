@@ -50,3 +50,4 @@ _resources about graphs and different implementations:_
 - https://www.youtube.com/watch?v=Ps3mBPcjySE
 - https://www.youtube.com/watch?v=7nGygdZfQas
 - https://www.youtube.com/watch?v=T9dgTRc8O4c
+- https://royalsocietypublishing.org/doi/full/10.1098/rsta.2014.0220

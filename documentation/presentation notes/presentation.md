@@ -39,24 +39,27 @@ ___
 ## Actual script: 
 
 ```
-This is an overview of abstract program concept. A high-level graph-based program which depends on another program to be interpreted. Representing programs in a graph data structure, instead of code files, opens up a variety of possiblities for improving development experience, mainly creating visual tools.
+This is an overview of abstract program concept. A high-level graph-based program which is interpreted by another program in runtime. This Graph program creates another layer of abstraction, it doesn't deal with specifics of the algorithms, only representing the module units, hense the term abstract program.
 
-Basically it is a way to represent part of the program in a graph data structure. This allows for integrating visual & text-based programming approaches, so that visual programming could be used, without giving up current development tools. Rather than taking an entire visual representation approach, using both visual & text, allows for integration with current existing text-based development tools, and incrementally build graphical tools.
+Here is the specification for the graph models & this repository is the implementation of it in Nodejs. Also I've described some additional graph theory concepts, not supported by graph databases, so I've implemented some in the application layer. 
+
+Initially the purpose was to be able to program the same way we contruct a mental model map of the program, or a least closer to the way we think & imagine by. I've found that some program patterns are easier to grasp when displayed graphically. Not necessarily viewing the program in a visual manner in terms of squares and lines, but in an abstract manner.
+For example creating a visual program map that takes into consideration the placement of procedures relative to each other and the expected timing of the different procedure executions in the program. 
+This assists in understanding or reasoning about the temporal aspect - timing of the program procedures, and the spatial aspect - capturing the position relations of the elements in the program.
+
+Representing programs in a graph data structure, instead of code files, opens up a variety of possiblities for improving the development experience, mainly concerning creating visual tools, which was my initial focus from developing programs as graphs.
+Graphical representation of programs is known to be bulky and take a lot of space, but it shouldn't be necessarily the case, when the purpose is to show abstractions of the program focusing on the control flow rather than the actual specific procedures. In this case a compact and summerized design can developed. I think this is one of the main reasons why visual programming languages never catched on in professional progamming, while it is used in graphics field, king of flow-based programming or occasional programming, so in a non-professional way.
+
+Back to the concept - Basically it is a way to represent part of the program in a graph data structure. This allows for integrating visual & text-based programming approaches, so that visual programming could be used, without giving up current development tools. Rather than taking an entire visual representation approach, using both visual & text, allows for integration with current existing text-based development tools, and incrementally build graphical tools.
 
 An abstract program, it is abstract in the sense that it describes the control flow of the program, leaving the details of the algorithms for an interpreter. In other words, it allows for splitting up the sequence of steps from the logic to be processed on each step.
+This is where a supervisor program comes into place. The supervisor program is provided with the graph data as input, in which it traverses the graph, interprets it, and executes the steps in the graph on runtime during each traversal. The same graph can be executed with different interpretation algorithms to match specific use-cases.
 
-So, a supervisor program is provided with the graph data as input, in which it traverses the graph, interprets it, and executes the steps in the graph on runtime during each traversal. The same graph can be executed with different interpretation algorithms to match specific use-cases.
-
-
-Here is the specification & this is the implementation of it in Nodejs.
-
-I've found that some program patterns are easier to grasp when displayed graphically (Not necessarily in a visual manner (in terms of squares and lines), but in an abstract manner), which assist in understanding both time and spatial relations. 
-Graphical representation of programs is known to be bulky and take a lot of space, but it shouldn't be necessarily the case, when the purpose is to show abstractions of the program focusing on the control flow rather than the actual procedures. In this case a compact and summerized design can developed.
-
-Let's look at different use cases:
+Let's breifly look into different use cases:
 - Build pipelines
 - Sever middleware. 
 - Routing with logical conditions. 
 - Template compositions and rendering.
+
 ```
 

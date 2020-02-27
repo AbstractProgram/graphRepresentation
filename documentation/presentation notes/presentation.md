@@ -39,9 +39,9 @@ ___
 ## Actual script: 
 
 ```
-This is an overview of abstract program concept. A high-level graph-based program which is interpreted by another program in runtime. This Graph program creates another layer of abstraction, it doesn't deal with specifics of the algorithms, only representing the module units, hense the term abstract program.
+This is an overview of abstract program concept. A high-level graph-based program which is interpreted on runtime by another sort of a supervisor program. This Graph program concept creates an additional layer of abstraction, it doesn't deal with specifics of the algorithms, only representing the module units or functions, hense the term abstract program. For example, the graph may reference some functions by name from the primary program that traverses & interprets it.
 
-Here is the specification for the graph models & this repository is the implementation of it in Nodejs. Also I've described some additional graph theory concepts, not supported by graph databases, so I've implemented some in the application layer. 
+I've created a specification which is an aggregation of notes and drawings for the graph models & this repository of a working implementation in Nodejs, that I actually use in my projects. Also I've described some additional graph theory concepts, not supported by graph databases, so I had to implement some of them in the application layer. 
 
 Initially the purpose was to be able to program the same way we contruct a mental model map of the program, or a least closer to the way we think & imagine by. I've found that some program patterns are easier to grasp when displayed graphically. Not necessarily viewing the program in a visual manner in terms of squares and lines, but in an abstract manner.
 For example creating a visual program map that takes into consideration the placement of procedures relative to each other and the expected timing of the different procedure executions in the program. 
@@ -60,6 +60,5 @@ Let's breifly look into different use cases:
 - Sever middleware. 
 - Routing with logical conditions. 
 - Template compositions and rendering.
-
 ```
 

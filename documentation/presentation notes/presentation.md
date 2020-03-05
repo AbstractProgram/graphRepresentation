@@ -2,7 +2,8 @@
 
 | Points        | Scene           |
 | ------------- |:------------- |
-| 1-4 | Title with an example control flow graph.|
+| 1 | External with screens in the background.
+| 2-4 | Title with an example control flow graph.|
 | 5 | Side-by-side text and visual programming approaches |
 | 6-7 | Graph with arrow pointing to an interpreter |
 | 8-9 | Supervisor program (traverses, interprets, & executes) with an inpur program graph and used interpretation algorithms. |
@@ -10,8 +11,12 @@
 
 
 ## Points: 
+_1. introduction about the project:_ 
+- about presentation. 
+- Closest term "abstract program"
+
 _Explain the concept:_
-1. Closest term "abstract program"
+
 2. High-level Graph-based programming.
 3. Visual & text-based approaches integration.
 4. Represent part of a program in graph. 
@@ -32,14 +37,21 @@ _Present repositories:_
 13. Use cases. 
 14. Graphical representation designs.
 15. Technical implementation details and architecture.
-16. pros & cons
+16. pros & conss
 
 ___
 
 ## Actual script: 
+بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ
 
-```
-This is an overview of abstract program concept. A high-level graph-based program which is interpreted on runtime by another sort of a supervisor program. This Graph program concept creates an additional layer of abstraction, it doesn't deal with specifics of the algorithms, only representing the module units or functions, hense the term abstract program. For example, the graph may reference some functions by name from the primary program that traverses & interprets it.
+``` 
+This is an overview of abstract program concept. A project I've been working on, allowing to execute programs represented as graph data strutures. 
+I came up with my own concept of how I envision programming to be, instead of writting code, the developer would deal with visual abstractions and the program would be represented as a graph which would be compiled directly into a low level language. 
+Now, there is always place to improve and rethink the concept, only that it would require deeper knowledge and a lot of time to implement. So I ended up combinning both text-based programming with graph-based programming.
+
+___
+
+Abstract program is a high-level graph-based program which is interpreted on runtime by a supervisor program. This Graph program concept creates an additional layer of abstraction, it doesn't deal with specifics of the algorithms, only representing the module units or name references of functions, hense the term abstract program.
 
 I've created a specification which is an aggregation of notes and drawings for the graph models & this repository of a working implementation in Nodejs, that I actually use in my projects. Also I've described some additional graph theory concepts, not supported by graph databases, so I had to implement some of them in the application layer. 
 
@@ -60,5 +72,7 @@ Let's breifly look into different use cases:
 - Sever middleware. 
 - Routing with logical conditions. 
 - Template compositions and rendering.
+
+Future plan to build a SaaS or PaaS.
 ```
 

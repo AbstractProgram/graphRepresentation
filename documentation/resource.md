@@ -52,3 +52,4 @@ _resources about graphs and different implementations:_
 - https://www.youtube.com/watch?v=T9dgTRc8O4c
 - https://royalsocietypublishing.org/doi/full/10.1098/rsta.2014.0220
 - https://books.google.co.il/books?id=LD5dDwAAQBAJ&pg=PA6&lpg=PA6&dq=%22abstract+programming%22&source=bl&ots=0dnlNhm-Yo&sig=ACfU3U16bqHDKucPnukW580UHLbKDhs0TA&hl=en&sa=X&ved=2ahUKEwjn6IHxj4HoAhXPesAKHaEUALE4ChDoATAGegQICRAB#v=onepage&q=%22abstract%20programming%22&f=false
+- https://www.youtube.com/watch?v=JNMy969SjyU

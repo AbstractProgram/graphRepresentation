@@ -51,27 +51,37 @@ Now, there is always place to improve and rethink the concept, only that it woul
 
 ___
 
-Abstract program is a high-level graph-based program which is interpreted on runtime by a supervisor program. This Graph program concept creates an additional layer of abstraction, it doesn't deal with specifics of the algorithms, only representing the module units or name references of functions, hense the term abstract program.
-
-I've created a specification which is an aggregation of notes and drawings for the graph models & this repository of a working implementation in Nodejs, that I actually use in my projects. Also I've described some additional graph theory concepts, not supported by graph databases, so I had to implement some of them in the application layer. 
-
-Initially the purpose was to be able to program the same way we contruct a mental model map of the program, or a least closer to the way we think & imagine by. I've found that some program patterns are easier to grasp when displayed graphically. Not necessarily viewing the program in a visual manner in terms of squares and lines, but in an abstract manner.
-For example creating a visual program map that takes into consideration the placement of procedures relative to each other and the expected timing of the different procedure executions in the program. 
-This assists in understanding or reasoning about the temporal aspect - timing of the program procedures, and the spatial aspect - capturing the position relations of the elements in the program.
-
-Representing programs in a graph data structure, instead of code files, opens up a variety of possiblities for improving the development experience, mainly concerning creating visual tools, which was my initial focus from developing programs as graphs.
-Graphical representation of programs is known to be bulky and take a lot of space, but it shouldn't be necessarily the case, when the purpose is to show abstractions of the program focusing on the control flow rather than the actual specific procedures. In this case a compact and summerized design can developed. I think this is one of the main reasons why visual programming languages never catched on in professional progamming, while it is used in graphics field, king of flow-based programming or occasional programming, so in a non-professional way.
-
-Back to the concept - Basically it is a way to represent part of the program in a graph data structure. This allows for integrating visual & text-based programming approaches, so that visual programming could be used, without giving up current development tools. Rather than taking an entire visual representation approach, using both visual & text, allows for integration with current existing text-based development tools, and incrementally build graphical tools.
-
-An abstract program, it is abstract in the sense that it describes the control flow of the program, leaving the details of the algorithms for an interpreter. In other words, it allows for splitting up the sequence of steps from the logic to be processed on each step.
-This is where a supervisor program comes into place. The supervisor program is provided with the graph data as input, in which it traverses the graph, interprets it, and executes the steps in the graph on runtime during each traversal. The same graph can be executed with different interpretation algorithms to match specific use-cases.
+Abstract program is a high-level graph-based program which is interpreted on runtime by a supervisor program. 
+This Graph program concept creates an additional layer of abstraction, where it doesn't deal with specifics of the algorithms, instead only describing the control flow of the program, hense the term abstract program. 
+In other words, it allows for splitting up the sequence of steps from the logic processed on each step. 
+This is where a supervisor program comes into place. The supervisor program is provided with the graph data as input, in which it traverses the graph, interprets it on-the-fly, and executes the steps in the graph during each traversal. The graph may indicate or reference external resources & functionalities which will be used during interpretation.
+For example, functions (module units) maybe referenced in the graph by name, and the interpreter program would decide how to resolve & call the functions in the graph. 
+So, the same graph can be executed with different interpretation algorithms to match specific use-cases.
+ 
+I created a specification which is an aggregation of notes and drawings for the graph models & this repository of a working implementation in Nodejs, that I actually use in my projects. Also I've described some additional graph theory concepts, not supported by graph databases, so I had to implement some of them in the application layer. 
 
 Let's breifly look into different use cases:
 - Build pipelines
 - Sever middleware. 
 - Routing with logical conditions. 
 - Template compositions and rendering.
+- Data schema verification
+patterns that are better represented as graphs.
+
+---
+
+Representing programs in graph data structures, instead of code files, opens up a variety of possiblities for improving the development experience, mainly concerning creating visual tools, which was my initial focus from developing programs as graphs.
+
+The main purpose is to be able to program the same way we contruct a mental model of the program, or a least to program closer to the way we think & imagine by. I've found that some program patterns are easier to grasp when displayed graphically. Not necessarily viewing the program in a visual manner in terms of squares and lines, but in an abstract manner. 
+This assists in understanding or reasoning about the temporal aspect - timing of the program procedures, and the spatial aspect - capturing the position relations of the elements in the program.
+
+Graphical representation of programs is known to be bulky and take a lot of space, but it shouldn't be necessarily the case, when the purpose is to show abstractions of the program focusing on the control flow rather than the actual specific procedures. In this case a compact and summerized design can developed. 
+I think this is one of the main reasons why visual programming languages never catched on in professional progamming, while it is used in graphics field, kind of flow-based programming or in occasional non-professional programming.
+For example creating a visual program map that takes into consideration the placement of procedures relative to each other and the expected timing of the procedure executions in the program. 
+
+Rather than taking an entire visual representation approach, integrating graph with text-based programming, allows to incrementally improve graphical tools without giving up current existing text-based development tools.
+
+---
 
 Future plan to build a SaaS or PaaS.
 ```

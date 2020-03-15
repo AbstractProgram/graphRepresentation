@@ -54,11 +54,14 @@ ___
 Abstract program is a high-level graph-based program which is interpreted on runtime by a supervisor program. 
 This Graph program concept creates an additional layer of abstraction, where it doesn't deal with specifics of the algorithms, instead only describing the control flow of the program, hense the term abstract program. 
 In other words, it allows for splitting up the sequence of steps from the logic processed on each step. 
-This is where a supervisor program comes into place. The supervisor program is provided with the graph data as input, in which it traverses the graph, interprets it on-the-fly, and executes the steps in the graph during each traversal. The graph may indicate or reference external resources & functionalities which will be used during interpretation.
-For example, functions (module units) maybe referenced in the graph by name, and the interpreter program would decide how to resolve & call the functions in the graph. 
+This is where a supervisor program comes into place. The supervisor program is provided with the graph data as input, in which it interprets the graph on-the-fly, and executes the steps in the graph during each traversal. The graph can reference external resources & functionalities which will be used during interpretation.
+For example, functions maybe referenced in the graph by name, and the interpreter program would decide how to resolve & call the functions in the graph. 
 So, the same graph can be executed with different interpretation algorithms to match specific use-cases.
  
-I created a specification which is an aggregation of notes and drawings for the graph models & this repository of a working implementation in Nodejs, that I actually use in my projects. Also I've described some additional graph theory concepts, not supported by graph databases, so I had to implement some of them in the application layer. 
+I created a specification describing the concept and the graph models 
+& this repository of a working implementation in Nodejs, that I actually use in my projects. 
+The interpretation algorithms are provided as plugins
+Also I've described some additional graph theory concepts, not supported by graph databases, so I had to implement some of them in the application layer. 
 
 Let's breifly look into different use cases:
 - Build pipelines

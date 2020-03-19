@@ -60,16 +60,16 @@ So, the same graph can be executed with different interpretation algorithms to m
  
 I created a specification describing the concept and the graph models 
 & this repository of a working implementation in Nodejs, that I actually use in my projects. 
-The interpretation algorithms are provided as plugins
+Where the interpretation algorithms are provided as external plugins to the impleminting module.
 Also I've described some additional graph theory concepts, not supported by graph databases, so I had to implement some of them in the application layer. 
 
-Let's breifly look into different use cases:
+Let's look at different programming patterns that are better represented as graphs.
+
 - Build pipelines
 - Sever middleware. 
 - Routing with logical conditions. 
-- Template compositions and rendering.
+- Template compositions & rendering.
 - Data schema verification
-patterns that are better represented as graphs.
 
 ---
 

@@ -52,7 +52,7 @@ Now, there is always place to improve and rethink the concept, only that it woul
 ___
 
 Abstract program is a high-level graph-based program which is interpreted on runtime by a supervisor program. 
-This Graph program concept creates an additional layer of abstraction, where it doesn't deal with specifics of the algorithms, instead only describing the control flow of the program, hense the term abstract program. 
+This Graph program concept creates an additional layer of abstraction, where it doesn't deal with specifics of the algorithms, instead only describing the control flow of the program, hence the term abstract program. 
 In other words, it allows for splitting up the sequence of steps from the logic processed on each step. 
 This is where a supervisor program comes into place. The supervisor program is provided with the graph data as input, in which it interprets the graph on-the-fly, and executes the steps in the graph during each traversal. The graph can reference external resources & functionalities which will be used during interpretation.
 For example, functions maybe referenced in the graph by name, and the interpreter program would decide how to resolve & call the functions in the graph. 
@@ -65,12 +65,20 @@ Also I've described some additional graph theory concepts, not supported by grap
 
 Let's look at different programming patterns that are better represented as graphs.
 
-- Build pipelines
-- Sever middleware. 
-- Routing with logical conditions. 
-- Template compositions & rendering.
-- Data schema verification
+- Build & Deployment pipelines
+  Task runners are good use cases, like in a build system. In this example the build command will load the graph data representing the build pipeline, and run the tasks when traversing the graph. So, each task matches a group of nodes in the graph that include the resources required for execution.
+Another usages in this case for production servers are:    
+- Request routing with complex logical conditions (Request Routing with logical conditions). 
+- Template systems to generate custom web documents (Template compositions & rendering).
+- Handling api data (Data schema verification for api requests).
+and 
+- implementation of middleware pattern (Sever middleware). 
 
+For example, in this sample web application, the server components are loaded into a memory database, ready to be traversed on each client request.
+Invoking the server will load the webapp, responding in this case with asset files. Where for each request a new traversal of the graph with it's own context is invoked. 
+
+Now if we look at the graph program in the database there are separate graphs for the services of the app. The graph in this example, is made up of a subgraph for middleware chain and another subgraph for template trees, which are linked together. 
+Those subgraphs are executed in the same traversal session, but are configured to use different interpretation algorithms. Therefore, when the traverser crosses the connection between the subgraphs, it interprets each with a different logic, one for the middleware downstream & upstream pattern, and the other for the templates composition & rendering. 
 ---
 
 Representing programs in graph data structures, instead of code files, opens up a variety of possiblities for improving the development experience, mainly concerning creating visual tools, which was my initial focus from developing programs as graphs.

@@ -79,21 +79,18 @@ Invoking the server will load the webapp, responding in this case with asset fil
 
 Now if we look at the graph program in the database there are separate graphs for the services of the app. The graph in this example, is made up of a subgraph for middleware chain and another subgraph for template trees, which are linked together. 
 Those subgraphs are executed in the same traversal session, but are configured to use different interpretation algorithms. Therefore, when the traverser crosses the connection between the subgraphs, it interprets each with a different logic, one for the middleware downstream & upstream pattern, and the other for the templates composition & rendering. 
----
+
 
 Representing programs in graph data structures, instead of code files, opens up a variety of possiblities for improving the development experience, mainly concerning creating visual tools, which was my initial focus from developing programs as graphs.
-
-The main purpose is to be able to program the same way we contruct a mental model of the program, or a least to program closer to the way we think & imagine by. I've found that some program patterns are easier to grasp when displayed graphically. Not necessarily viewing the program in a visual manner in terms of squares and lines, but in an abstract manner. 
-This assists in understanding or reasoning about the temporal aspect - timing of the program procedures, and the spatial aspect - capturing the position relations of the elements in the program.
-
-Graphical representation of programs is known to be bulky and take a lot of space, but it shouldn't be necessarily the case, when the purpose is to show abstractions of the program focusing on the control flow rather than the actual specific procedures. In this case a compact and summerized design can developed. 
-I think this is one of the main reasons why visual programming languages never catched on in professional progamming, while it is used in graphics field, kind of flow-based programming or in occasional non-professional programming.
-For example creating a visual program map that takes into consideration the placement of procedures relative to each other and the expected timing of the procedure executions in the program. 
-
 Rather than taking an entire visual representation approach, integrating graph with text-based programming, allows to incrementally improve graphical tools without giving up current existing text-based development tools.
 
----
+The main purpose is to be able to program the same way we contruct a mental model of the program, or a least to program closer to the way we think & imagine by. I've found that some program patterns are easier to grasp when displayed graphically. Not necessarily viewing the program in a visual manner in terms of squares and lines, but in an abstract manner. 
+This assists in understanding or reasoning about the temporal aspect - i.e. the expected timing of the procedures executions, and the spatial aspect - capturing the placement relations of program procedures relative to each other.
 
-Future plan to build a SaaS or PaaS.
+Graphical representation of programs is known to be bulky and take a lot of space, but it shouldn't be necessarily the case, when the purpose is to show abstractions of the program focusing on the control flow rather than the actual specific procedures. In this case a compact and summerized design can developed. 
+I think this is one of the main reasons why visual programming languages never catched on in professional progamming, while it is used in graphics field with flow-based models or in occasional non-professional programming.
+
+On top of this core implementation, can be built systems that are altered in realtime using graphical interfaces. I think of building a platform or software -as-a-service (PaaS or SaaS) for creating advanced webapps leveraging visual programming approach.
+
 ```
 

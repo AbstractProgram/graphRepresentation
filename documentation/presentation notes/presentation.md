@@ -45,9 +45,9 @@ ___
 بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ
 
 ``` 
-This is an overview of abstract program concept. A project I've been working on, allowing to execute programs represented as graph data strutures. 
-I came up with my own concept of how I envision programming to be, instead of writting code, the developer would deal with visual abstractions and the program would be represented as a graph which would be compiled directly into a low level language. 
-Now, there is always place to improve and rethink the concept, only that it would require deeper knowledge and a lot of time to implement. So I ended up combinning both text-based programming with graph-based programming.
+This is an overview of abstract program concept. A project I've been working on, allowing to execute programs represented as graph data structures. 
+I came up with my own concept of how I envision programming to be, instead of writing code, the developer would deal with visual abstractions and the program would be represented as a graph which would be compiled directly into a low level language. 
+Now, there is always place to improve and rethink the concept, only that it would take a lot of time to implement and would require deeper knowledge. So what I ended up doing is combining both text-based programming with graph-based programming.
 
 ___
 
@@ -58,7 +58,7 @@ This is where a supervisor program comes into place. The supervisor program is p
 For example, functions maybe referenced in the graph by name, and the interpreter program would decide how to resolve & call the functions in the graph. 
 So, the same graph can be executed with different interpretation algorithms to match specific use-cases.
  
-I created a specification describing the concept and the graph models 
+I created a specification describing the concept and the graph models.
 & this repository of a working implementation in Nodejs, that I actually use in my projects. 
 Where the interpretation algorithms are provided as external plugins to the impleminting module.
 Also I've described some additional graph theory concepts, not supported by graph databases, so I had to implement some of them in the application layer. 

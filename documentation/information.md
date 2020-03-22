@@ -4,6 +4,8 @@ An abstract program (or control graph or flowchart schema) depicts the control s
 
 A concept of graph assisted programming, immediately executed graph. and an implementation module of such concept. Similar to program analysis graphs which displays all possible paths a program can take, only that it is used for runtime execution. A graph representing the control flow of the program. i.e. Visual programming language that assembles executable code.
 
+[![](http://img.youtube.com/vi/AdXPXtluvKA/0.jpg)](http://www.youtube.com/watch?v=AdXPXtluvKA "https://i.ytimg.com/vi/AdXPXtluvKA/hqdefault.jpg")
+
 ###### Other terminology: _Abstract Program Graph / Executable Graph / Control Flow Graph / Graph-assisted program / Call Graph_
 
 

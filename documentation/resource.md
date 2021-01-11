@@ -55,3 +55,9 @@ _resources about graphs and different implementations:_
 - https://www.youtube.com/watch?v=JNMy969SjyU
 - https://online.visual-paradigm.com/diagrams/tutorials/deployment-diagram-tutorial/
 - https://www.lucidchart.com/pages/uml-deployment-diagram
+- https://www.postscapes.com/iot-visual-programming-tools/
+- http://www.baeza.cl/cursos/vp/todo.html
+- https://xod.io/
+- https://www.makeblock.com/coding-robot/208984.html
+- https://awesomeopensource.com/projects/visual-programming-language
+- https://github.com/topics/visual-programming

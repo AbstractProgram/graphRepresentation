@@ -61,3 +61,4 @@ _resources about graphs and different implementations:_
 - https://www.makeblock.com/coding-robot/208984.html
 - https://awesomeopensource.com/projects/visual-programming-language
 - https://github.com/topics/visual-programming
+- Hierarchical classification of visual language: https://link.springer.com/chapter/10.1007/978-1-4612-1676-6_4
